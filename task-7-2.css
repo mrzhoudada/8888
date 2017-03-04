@@ -55,8 +55,7 @@ body{
 }
 .box1{
     height:135px;
-    max-width:640px;
-    width:100%;
+    width:640px;
     margin-top:0;
     border-top:solid 1px #dddddd;
     border-bottom:solid 1px #dddddd;
@@ -64,16 +63,21 @@ body{
 .wz4{
     color:#676767;
     font-size: 2rem;
-
+    float:left;
+    margin-left:79px;
 }
 .wz5{
     color:#c7c7c7;
     font-size: 1.3rem;
     font-weight:200;
+    float:right;
+    margin-left: 248px;
 }
 .wz6{
     color:#a6a6a6;
     font-size: 1.5rem;
+    float:left;
+    margin-left:79px;
 }
 .gap{
     background-color:rgba(41,189,224,0.5);
