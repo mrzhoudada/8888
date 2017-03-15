@@ -1,0 +1,87 @@
+@color: #e1f3f6;
+@size:1.5rem;
+@width:100%;
+@background:#fff;
+body {
+  margin:0;
+  padding: 0;
+  background: #eff0f4;
+}
+.header {
+  z-index: 1;
+  position: fixed;
+  background:#5fc0cd;
+  width:@width;
+  padding-bottom: @size - 0.7;
+  padding-top: @size - 0.7;
+}
+.box{
+  border:none;
+  width:@width;
+  color:@color;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+th{
+  color:@color;
+  font-size: @size;
+}
+  .font{
+    font-size: @size + 0.1;
+    color:@color;
+    width:75%;
+}
+  i{
+    font-size: @size;
+    padding-left: @size;
+    padding-right: @size;
+  }
+.box1{
+  z-index: 1;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+  width:@width;
+  background: @background;
+}
+.box2{
+  width:@width;
+  background: #5fc0cd;
+}
+.font1{
+  font-size: @size + 0.1;
+  text-align: center;
+  letter-spacing:@size - 0.9;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  color:@color;
+  cursor:pointer;
+}
+.forms{
+  height: 5%;
+  border: none;
+  border-left: solid 1px #eaedee;
+  padding-left: 1.5%;
+  font-size: @size;
+  width:80%;
+  outline-style: none;
+}
+.font2{
+  color:#83ccd7;
+  float:right;
+  margin-right: 1%;
+  font-size:@size - 0.1;
+  font-weight: 600;
+  cursor:pointer;
+}
+@media screen and (min-width: 360px) and (max-width: 540px){
+  html{font-size: 80%;}
+  .box1{margin-top: -1.5%;}
+}
+
+@media screen and (max-width: 360px){
+  html{font-size: 60%;}
+  .box1{margin-top: -8%;
+  margin-bottom: 5%}
+  .box2{margin-top: -8%; }
+}
